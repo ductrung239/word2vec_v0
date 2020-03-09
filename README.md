@@ -24,7 +24,7 @@ Tham khảo thêm: https://github.com/deepai-solutions/core_nlp/blob/master/word
 
 # Bước 2
 
-- Clean dữ liệu nếu có dính html tag, css, script. Sau đó tách từ để mỗi từ (word) có nghĩa và mang đúng nghĩa (xem phần đầu để lấy link tham khảo). Mình xin giới thiệu hàm để tự động tìm các files trong một thư mục, làm sạch các tag, script, tách từ rồi ghi vào một file cùng tên nhưng đặt trong thư mục mới.
+- Clean dữ liệu nếu có dính html tag, css, script. Sau đó tách từ để mỗi từ (word) có nghĩa và mang đúng nghĩa. Mình xin giới thiệu hàm để tự động tìm các files trong một thư mục, làm sạch các tag, script, tách từ rồi ghi vào một file cùng tên nhưng đặt trong thư mục mới.
 
 ```
 input_dir = 'data/word_embedding/real/html'
